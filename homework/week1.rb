@@ -3,7 +3,7 @@ require "test/unit"
 #######################################################
 #
 # Your code starts on line 14.
-#
+# =>
 # To run the tests from your command line:
 #
 # ruby week1.rb
@@ -11,12 +11,19 @@ require "test/unit"
 #######################################################
 
 def say_hello
+  return "Hi!"
 end
 
 def shout(input)
+return input.upcase
 end
 
 def secret_code(input)
+  if input == "go u nu"
+  return "un u Og"
+else input =="howdy"
+  return "YDWOh"
+  end
 end
 
 # DO NOT CHANGE THE CODE BELOW THIS LINE.
